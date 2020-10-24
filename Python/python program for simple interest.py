@@ -13,6 +13,10 @@ T = 5
 
 #CalCulate Simple Interest
 
+P = int(input("Input The Principle Number: "))
+R = int(input("Input The Rate: "))
+T = int(input("Input The Time: "))
+
 SI =(P * R * T)/100
 
 print("Simple Interest Is {}".format(SI))
